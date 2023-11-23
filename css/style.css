@@ -1,0 +1,188 @@
+nav {
+  background: #161B1D;
+}
+
+body {
+  height: 1000px;
+  background-color: #161B1D;
+}
+.embed-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  margin-left: 10%;
+  height: 0;
+  overflow: hidden;
+}
+img {
+  border-style: none;
+  max-width: 100%;
+  display: block;
+}
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  font-weight: 600;
+}
+nav ul li.active a {
+  color: red;
+}
+.Glavnaya:hover{
+  text-decoration: underline;
+}
+.row .col.s4 {
+  border-radius: 10%;
+  display: flex;
+  height: 183px;
+  width: 324px;
+  align-items: flex-end;
+  
+  margin-right: 2%;
+}
+.sidenav-overlay
+{
+ z-index: 996;
+}
+.sidenav {
+  color: white;
+  background-color: #161B1D;
+}
+.card-stacked1
+{
+  background-color: #161B1D;
+}
+.childhov {
+  margin-left: -4%;
+  margin-right: -5%;
+  display: flex;
+  align-items: flex-end;
+  background-image: none;
+  box-shadow: inset -12px 15px 150px 35px rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+}@media (max-width: 1737px) {
+  .slider {
+    display: none;
+  }
+}
+@media (max-width: 1373px) {
+  .embed-youtube {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1359px) {
+  .hide-on-med-and-down {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1360px) {
+  nav a.sidenav-trigger {
+    display: none;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .tttt {
+      display: none;
+  }
+  .newshovertime
+  {
+    display: none;
+  }
+  .deletedspan
+  {
+    display:none;
+  }
+  .deletecards{
+    display: none;
+  }
+}
+
+.hide-on-med-and-down {
+  @media only screen and (max-width: 1320px) {
+    display: none !important;
+  }
+}
+
+ @media only screen and (max-width: 1366px)
+ {
+  .card.horizontal .card-image
+  {
+    display:none
+  }
+}
+.podbork
+{
+  color: white;
+  margin-bottom: 5%;
+  border-radius: 20px;
+}
+hr{
+  color:gray;
+}
+.podborkactive
+{
+  color: white;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  background-color: #747C81;
+}
+.podbork:hover
+{
+  background-color: #747C81;
+}
+.col.s4:hover .childhov {
+  transform: scale(1.1);
+  box-shadow: inset -12px 15px 150px 0px rgb(0, 0, 0);
+}
+.newshoverunder{
+ 
+    text-decoration: none;
+    color: gray;
+  
+}
+.newshovertime{
+ 
+  color: rgb(199, 199, 199);
+
+}
+.newshoverunder:hover
+{
+  text-decoration: underline;
+  color: red;
+}
+material-icon {
+  color: white;
+}
+.news
+{
+  font-size: larger;
+  font-weight: 400;
+  color: white;
+}
+.newshover
+{
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 700;
+  color: white;
+}
+.newshover:hover
+{
+  text-decoration: underline;
+  color: red;
+}
+.page-footer {
+  background: #161B1D;
+}
+.carousel 
+{
+  height: 800px;
+}
