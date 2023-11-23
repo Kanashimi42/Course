@@ -6,6 +6,62 @@ body {
   height: 1000px;
   background-color: #161B1D;
 }
+.youtube
+{
+  width: 100%;
+}
+.col.s4.m3.custom
+{
+  margin-left: 10%; margin-top: 10%;
+}
+.col.s4.m3.customnext
+{
+  margin-top: 10%;
+}
+@media (max-width: 1542px) {
+  .col.s4.m3.custom
+{
+  margin-left: 0;
+}
+.col.s4.m3.customnext
+{
+  margin-top: 10%;
+}
+
+}
+@media (max-width: 1262px) {
+  .col.s4.m3.custom
+{
+  margin-top: 20%;
+  margin-left: 0;
+}
+.col.s4.m3.customnext
+{
+  margin-top: 20%;
+}
+}
+@media (max-width: 899px) {
+  .col.s4.m3.custom
+{
+  margin-top: 25%;
+  margin-left: 0;
+}
+.col.s4.m3.customnext
+{
+  margin-top: 20%;
+}
+}
+@media (max-width: 420px) {
+  .col.s4.m3.custom
+{
+  margin-top: 40%;
+  margin-left: 0;
+}
+.col.s4.m3.customnext
+{
+  margin-top: 30%;
+}
+}
 .embed-youtube {
   position: relative;
   padding-bottom: 56.25%;
@@ -60,6 +116,8 @@ nav ul li.active a {
   background-color: #161B1D;
 }
 .childhov {
+  transition: all 1s ease;
+  background-position: center;
   margin-left: -4%;
   margin-right: -5%;
   display: flex;
@@ -139,7 +197,10 @@ hr{
   background-color: #747C81;
 }
 .col.s4:hover .childhov {
-  transform: scale(1.1);
+  transition: all 1s ease;
+  background-position: center;
+  
+  background-size: 110%;
   box-shadow: inset -12px 15px 150px 0px rgb(0, 0, 0);
 }
 .newshoverunder{
