@@ -20,27 +20,16 @@ body {
 }
 @media (max-width: 1542px) {
   .col.s4.m3.custom
-{
+{margin-top: 15%;
   margin-left: 0;
 }
 .col.s4.m3.customnext
 {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 }
 @media (max-width: 1262px) {
-  .col.s4.m3.custom
-{
-  margin-top: 20%;
-  margin-left: 0;
-}
-.col.s4.m3.customnext
-{
-  margin-top: 20%;
-}
-}
-@media (max-width: 899px) {
   .col.s4.m3.custom
 {
   margin-top: 25%;
@@ -48,18 +37,29 @@ body {
 }
 .col.s4.m3.customnext
 {
-  margin-top: 20%;
+  margin-top: 25%;
 }
 }
-@media (max-width: 420px) {
+@media (max-width: 899px) {
   .col.s4.m3.custom
 {
-  margin-top: 40%;
+  margin-top: 30%;
   margin-left: 0;
 }
 .col.s4.m3.customnext
 {
   margin-top: 30%;
+}
+}
+@media (max-width: 420px) {
+  .col.s4.m3.custom
+{
+  margin-top: 50%;
+  margin-left: 0;
+}
+.col.s4.m3.customnext
+{
+  margin-top: 50%;
 }
 }
 .embed-youtube {
@@ -74,6 +74,10 @@ img {
   border-style: none;
   max-width: 100%;
   display: block;
+}
+.slider.customm
+{
+  height: 60% !important; 
 }
 .embed-youtube iframe,
 .embed-youtube object,
@@ -192,7 +196,8 @@ nav ul li.active a {
 {
   color: white;
   margin-bottom: 5%;
-  border-radius: 20px;
+  padding: 2% 0;
+  border-radius: 10px;
 }
 hr{
   color:gray;
@@ -201,7 +206,8 @@ hr{
 {
   color: white;
   margin-bottom: 5%;
-  border-radius: 20px;
+  padding: 2% 0;
+  border-radius: 10px;
   background-color: #747C81;
 }
 .podbork:hover
